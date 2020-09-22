@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /*background-color: rgb(158, 158, 158);*/
+    /*background-image: url("assets/images/wooden-slats.png")*/
+    background-image: url("Assets/images/brick.jpg")
+
+}
+ 
+/*main style for About Me page*/
+
+/*color for header Contact*/
+
+.page-header1 {
+    color: #1a5303;
+}
+
+/*Portfolio Page image styling*/
+
+.img-thumbnail {
+    background-color: #ffffff00;
+    border: none;
+    margin-bottom: 15px;
+    
+}
+article {
+    background-color: #ffffff00;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.caption {    
+    color: #1a5303;
+    text-align: center;
+}
+
+/*footer CSS for all footers*/
+footer {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #1a5303;
+    font-size: 2vw; 
+    text-align: center;
+    color: #f4f8f2;
+}
+
+/*footer position for Contact and About Me page*/
+.footer {
+
+        position: absolute;
+        bottom: 0;
+}
+
+
+/*Sitckyfooter CSS* on Portfolio page*/
+.stickyfooter {
+
+        position: sticky;
+        bottom: 0;
+}
+
+
+/*style for form group on contact page*/
+.form-group {
+    background-color: #f4f8f200;
+    color: #1a5303;
+    font-size: 18px;
+
+
+}
