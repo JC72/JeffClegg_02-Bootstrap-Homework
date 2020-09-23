@@ -7,8 +7,7 @@
 body {
     /*background-color: rgb(158, 158, 158);*/
     /*background-image: url("assets/images/wooden-slats.png")*/
-    background-image: url("backgrounds/images/brick.jpg")
-
+    background-image: url("backgrounds/images/brick.jpg");
 }
  
 /*main style for About Me page*/
@@ -19,6 +18,9 @@ body {
     color: #1a5303;
 }
 
+p {
+    font-size: 2vh, 2vw;
+}
 /*Portfolio Page image styling*/
 
 .img-thumbnail {
@@ -52,10 +54,10 @@ footer {
     color: #f4f8f2;
 }
 
-/*footer position for Contact and About Me page*/
+/*footer position*/
 .footer {
 
-        position: absolute;
+        position: fixed;
         bottom: 0;
 }
 
